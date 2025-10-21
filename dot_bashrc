@@ -37,9 +37,9 @@ test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.s
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
 
-if [ -f "/home/derek/.gitprompt.sh" ]; then
+if [ -f "$HOME/.gitprompt.sh" ]; then
 	GIT_PROMPT_CUSTOM=1
-	source "/home/derek/.gitprompt.sh"
+	source "$HOME/.gitprompt.sh"
 fi
 
 export TERM=xterm-256color
