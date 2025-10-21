@@ -3,7 +3,7 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
 	-- Add a language of your choice
-	ensure_installed = { "lua", "vim", "vimdoc", "bash", "markdown", "yaml", "json", "just",},
+	ensure_installed = { "lua", "vim", "vimdoc", "bash", "markdown", "yaml", "toml", "ini", "json", "just",},
 
 	-- Install parsers synchronously
 	sync_install = false,
