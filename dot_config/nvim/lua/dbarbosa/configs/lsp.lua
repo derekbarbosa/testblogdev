@@ -3,7 +3,7 @@ vim.lsp.config('bashls', {
 })
 
 vim.lsp.config('dockerls', {
-	filetypes = { 'Dockerfile', 'dockerfile', 'containerfile', 'Containerfile',},
+	filetypes = { 'Dockerfile', 'dockerfile', 'containerfile',},
 	root_markers = {
 		'Dockerfile',
 		'Containerfile',
@@ -12,6 +12,10 @@ vim.lsp.config('dockerls', {
 
 vim.lsp.config('jsonls', {
 	filetypes = { 'json', 'jsonc' },
+})
+
+vim.lsp.config('just-lsp', {
+	filetypes = { 'justfile', },
 })
 
 vim.lsp.config('lua_ls', {
@@ -31,11 +35,10 @@ vim.lsp.config('lua_ls', {
 	},
 })
 
-vim.lsp.config('mutt_ls', {
-	filetypes = { 'muttrc', 'neomuttrc' },
-})
-
 vim.lsp.config('marksman', {
 	filetypes = { 'markdown', 'md' },
 })
 
+vim.lsp.config('yamlls', {
+	filetypes = { 'yaml', 'yml' },
+})
