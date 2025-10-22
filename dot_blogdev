@@ -1,0 +1,5 @@
+====
+config: blogdev
+repository:  https://github.com/derekbarbosa/dotfiles-chezmoi.git
+branch: blogdev
+===
