@@ -13,8 +13,7 @@ require("mason").setup({
 require('mason-tool-installer').setup({
 	ensure_installed = {
 		"bashls",
-		"css-lsp",
-		"html-lsp",
+		"dockerls",
 		"jsonls",
 		"lua_ls",
 		"marksman",

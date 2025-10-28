@@ -17,6 +17,11 @@ export PATH
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
 
+if [ -f "$HOME/.gitprompt.sh" ]; then
+	GIT_PROMPT_CUSTOM=1
+	source "$HOME/.gitprompt.sh"
+fi
+
 export TERM=xterm-256color
 
 export LESSEDIT='%E ?lm+%lm. %g'
